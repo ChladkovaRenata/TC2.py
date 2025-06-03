@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS task_manager;
+
+CREATE TABLE IF NOT EXISTS ukoly (
+    id int primary key auto_increment,
+    nazev VARCHAR(255) NOT NULL,
+    popis TEXT,
+    stav ENUM('Nezahájeno', 'Probíhá', 'Hotovo') DEFAULT 'Nezahájeno',
+    datum_vytvoreni DATE
+);
+
+ 

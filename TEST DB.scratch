@@ -1,3 +1,0 @@
-USE task_manager_test;
-
-INSERT INTO ukoly (nazev, popis) VALUES ('', 'test');

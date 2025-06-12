@@ -1,4 +1,4 @@
-# pytest cache directory #
+pytest cache directory #
 
 This directory contains data from the pytest's cache plugin,
 which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
@@ -7,13 +7,13 @@ which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
 
 See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
 
-# ✅ Vylepšený Task Manager (MySQL + Python + Pytest)
+#Vylepšený Task Manager (MySQL + Python + Pytest)
 
 Tento projekt je jednoduchý správce úkolů, který pracuje s MySQL databází a umožňuje provádět operace: Přidat, Zobrazit, Aktualizovat a Odstranit úkol.
 
----
 
-## 🔧 Požadavky
+
+Požadavky
 
 Než projekt spustíš, ujisti se, že máš nainstalované:
 
@@ -21,11 +21,11 @@ Než projekt spustíš, ujisti se, že máš nainstalované:
 - MySQL Server (např. přes XAMPP nebo MySQL Workbench)
 - Knihovny: `mysql-connector-python`, `pytest`
 
----
 
-## 📦 Instalace závislostí
 
-```bash
+Instalace závislostí
+
+
 pip install mysql-connector-python pytest
 
 
